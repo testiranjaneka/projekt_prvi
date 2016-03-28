@@ -16,5 +16,10 @@ namespace Novi_app
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Mario je glavni, najglavnesi na svetu!!";
+        }
     }
 }
