@@ -21,5 +21,10 @@ namespace Novi_app
         {
             label1.Text = "Mario je glavni, najglavnesi na svetu!!";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.Red;
+        }
     }
 }
