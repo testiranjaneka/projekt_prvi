@@ -24,7 +24,14 @@ namespace Novi_app
 
         private void button2_Click(object sender, EventArgs e)
         {
-            BackColor = Color.Red;
+            timer1.Start();
+            button2.Hide();
         }
+        Random ajmo = new Random();
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            BackColor = Color.FromArgb(ajmo.Next(1, 255), ajmo.Next(1, 255), ajmo.Next(1, 255));
+        }
+
     }
 }
